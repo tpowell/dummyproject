@@ -18,5 +18,8 @@
   "homepage": "https://github.com/tpowell/dummyproject#readme",
   "devDependencies": {
     "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "firebase-tools": "^3.18.4"
   }
 }
