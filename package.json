@@ -4,6 +4,7 @@
   "description": "Just a dummy project",
   "main": "public/index.html",
   "scripts": {
+    "xtest" : "node --experimental-modules node_modules/mocha/bin/_mocha",
     "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {

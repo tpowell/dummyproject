@@ -1,0 +1,41 @@
+[debug] [2018-05-19T23:27:05.522Z] ----------------------------------------------------------------------
+[debug] [2018-05-19T23:27:05.524Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-05-19T23:27:05.525Z] CLI Version:   3.18.4
+[debug] [2018-05-19T23:27:05.525Z] Platform:      darwin
+[debug] [2018-05-19T23:27:05.526Z] Node Version:  v8.11.1
+[debug] [2018-05-19T23:27:05.527Z] Time:          Sat May 19 2018 16:27:05 GMT-0700 (PDT)
+[debug] [2018-05-19T23:27:05.527Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-19T23:27:05.556Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-19T23:27:05.557Z] > authorizing via signed-in user
+[debug] [2018-05-19T23:27:05.560Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-19T23:27:05.560Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/rCXT5YAx_47SoIvih78Gs7Oeoja7a9Ruc5lMFjZxuLB3Hsc15LMjr9Rgqi87MRco',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat May 19 2018 16:27:05 GMT-0700 (PDT)
+[debug] [2018-05-19T23:27:05.785Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-19T23:27:05.810Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/tfapp-a6af8  
+  
+ Sat May 19 2018 16:27:05 GMT-0700 (PDT)
+[debug] [2018-05-19T23:27:06.330Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-19T23:27:06.331Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/tfapp-a6af8/tokens  
+  
+ Sat May 19 2018 16:27:06 GMT-0700 (PDT)
+[debug] [2018-05-19T23:27:06.995Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-19T23:27:06.996Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/tfapp-a6af8  
+  
+ Sat May 19 2018 16:27:06 GMT-0700 (PDT)
+[debug] [2018-05-19T23:27:07.610Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/tpowell/Dropbox/00working/dummyproject'...
+[info] 
+[debug] [2018-05-19T23:27:07.619Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/286336267982/clients/_:getWebAppConfig  
+  
+ Sat May 19 2018 16:27:07 GMT-0700 (PDT)
+[debug] [2018-05-19T23:27:08.022Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
