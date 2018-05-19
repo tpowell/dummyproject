@@ -1,5 +1,7 @@
 /* global.js */
 
-window.addEventListener('DOMReady', function () {
-    alert('Script loaded');
+window.addEventListener('DOMContentLoaded', function () {
+    document.querySelector('#btn1').addEventListener('click', function () {
+        alert('This button was clicked');
+    })
 }, false);
