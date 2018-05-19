@@ -4,7 +4,7 @@
   "description": "Just a dummy project",
   "main": "public/index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tpowell/dummyproject/issues"
   },
-  "homepage": "https://github.com/tpowell/dummyproject#readme"
+  "homepage": "https://github.com/tpowell/dummyproject#readme",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
