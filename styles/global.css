@@ -1,0 +1,9 @@
+/* global.css - Styles for the dummy repo */
+
+body {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 16px;
+      color: rgb(44, 44, 42);}
+
+a {
+    color: royalblue;
+}
